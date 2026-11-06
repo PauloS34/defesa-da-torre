@@ -30,9 +30,9 @@ public class Partida {
                 new Ponto(-6, 5),
                 new Ponto(11, 5)));
 
-        torres.add(new Torre(1, "CANHAO", new Ponto(-1, -2.5)));
-        torres.add(new Torre(2, "GELO", new Ponto(6.5, -2.5)));
-        torres.add(new Torre(3, "LASER", new Ponto(-2, 2.5)));
+        torres.add(new Canhao(1, new Ponto(-1, -2.5)));
+        torres.add(new TorreDeGelo(2, new Ponto(6.5, -2.5)));
+        torres.add(new Laser(3, new Ponto(-2, 2.5)));
 
         montarOndas();
     }
